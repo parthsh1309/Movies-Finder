@@ -87,7 +87,7 @@ form.addEventListener("submit", async (e) => {
     };
     // fetching api
     const getting = await axios.get(
-      `http://www.omdbapi.com/?&apikey=3d5b922f`,
+      `https://www.omdbapi.com/?&apikey=3d5b922f`,
       para
     );
     imagePrint(getting);
