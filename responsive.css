@@ -1,0 +1,20 @@
+@media only screen and (max-width:550px) {
+    header{
+        justify-content: space-between;
+    }
+    .Search-container form{
+        flex-direction: column;
+    }
+    .Search-container form input{
+        width: 90%;
+    }
+    .Search-container h1{
+        font-size: 2rem;
+    }
+    .Movie-Details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

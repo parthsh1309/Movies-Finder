@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>MOVIES FINDER</title>
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <div class="center">
+          <h1>Movie</h1>
+          <h1>Quester.</h1>
+        </div>
+      </div>
+      <div class="Home">
+        <div>
+            <div></div>
+            <div></div>
+            <div></div> 
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="Search-container">
+        <form>
+          <h1><label for="">Search Movies : </label></h1>
+          <input
+            type="text"
+            autocomplete="off"
+            id="input"
+            placeholder="Search For Movies..."
+          />
+          <button id="srch-btn">Search</button>
+        </form>
+      </div>
+    </section>
+    <main class="hidden">
+      <div class="Movie-Details">
+        <div class="poster">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+            id="posterImg"
+          />
+        </div>
+        <div class="details ">
+            
+          <h1 id="MovieTitle"></h1>
+          <div id="runtime"></div>
+        
+          <div id="YRR">
+            <span id="year"> </span>
+            <hr> 
+            <span id="rating"> </span>
+            <hr>
+            <span id="release-date"></span>
+          </div>
+          <div id="genre" class="bold"></div>
+          <div id="writer"class="bold"></div>
+          <div id="actor"class="bold"></div>
+          <div id="plots"class="bold">
+            
+          </div>
+          <div id="language"class="bold"></div>
+          <div id="award"class="bold"> </div>
+        </div>
+      </div>
+    </main>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

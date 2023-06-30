@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Kanit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(38, 39, 46);
+}
+.center {
+  margin: auto;
+  display: flex;
+  /* flex-direction: column; */
+}
+header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header .head {
+  height: 15vh;
+  width: 60%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-left: 10px; */
+  /* background-color: antiquewhite; */
+}
+header .head h1 {
+  font-size: 2.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.head h1:nth-of-type(1) {
+  color: rgb(237, 237, 236);
+}
+.head h1:nth-of-type(2) {
+  color: rgb(255, 215, 0);
+}
+.Home{
+    margin-bottom: 17px;
+}
+.Home div {
+  width: 45px;
+  height: 4px;
+  background-color: black;
+  margin: 8px 0;
+}
+
+section .Search-container {
+  height: 20vh;
+  background-color: rgba(51, 52, 60, 0.625);
+}
+.Search-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 30px;
+  color: white;
+  gap: 20px;
+}
+.Search-container form h1 {
+  font-family: "Belanosima", sans-serif;
+}
+.Search-container form input {
+  height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  width: 40%;
+  border: 1px solid rgb(43, 43, 43);
+  outline: none;
+  border-radius: 10px;
+  padding: 20px;
+}
+.Search-container form button {
+  background-color: beige;
+  height: 40px;
+  width: 80px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  font-family: "Belanosima", sans-serif;
+  background-color: rgba(136, 130, 124, 0.511);
+  cursor: pointer;
+}
+.Search-container form button:hover {
+  background-color: rgb(29, 28, 27);
+  transition: background-color 1s;
+}
+.Search-container form button:focus {
+  background-color: rgb(36, 31, 31);
+}
+
+main .Movie-Details {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+main .Movie-Details img {
+  height: 400px;
+  border: 10px solid white;
+}
+.details {
+  color: white;
+  font-family: "Ysabeau Infant", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.3rem;
+}
+
+.details #MovieTitle {
+  font-size: 3rem;
+  font-family: "Belanosima", sans-serif;
+  color: rgba(255, 217, 0, 0.88);
+}
+
+.details #runtime {
+  font-size: 2rem;
+}
+
+.details #YRR {
+  font-size: 1.3rem;
+  display: flex;
+  gap: 35px;
+}
+
+.details #genre {
+  background-color: rgb(58, 58, 64);
+  width: 70%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  gap: 10px;
+}
+
+.details #language {
+  color: rgba(255, 217, 0, 0.88);
+}
+
+.bold span {
+  font-family: "Belanosima", sans-serif;
+}
+.hidden {
+  display: none;
+}
